@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6b92cc55bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo2.png" alt="Harish" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" style="color: #1368fb;"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"   style="color: #0b62f9;"></i>
+            </nav>
+            <div class="header-text">
+                <p>Mechanical Engineering</p>
+                <h1>Hey, I'm <span>Harish <br>    Choudhary</span> </h1>
+            </div>
+        </div>
+        
+    </div>
+
+<!-- #about  section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/pic1.jpg" alt="Harish">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    A mechanical engineering enthusiast with quick learning skills and a huge interest on
+knowing and learning about the emerging Manufacturing and Design sector and also
+eager to know in coding field.I am comfortable with software such as AutoCad,Fusion
+360,Solidworksetc. Qualities like good communication and listening skills,good
+managerial skills amongst a team,discipline and diligent in work are something which I
+possess within.I am a multitasking person.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>1. Programming language</span><br>Python /java /c</li>
+                        <li><span>2. Web development</span><br>HTML /CSS /js</li>
+                        <li><span>3. data structure & algorithms</span><br>Basic Data Structure /linked list /binary tree</li>
+                        <li><span>4. Design software</span><br>AutoCAD /Fusion 360</li>
+                        <li><span>5. basic softwares</span><br>Ms word /powerpoint /google colab</li>
+                        <li><span>6. Other</span><br>Leadership /Problem Solving /Time managment</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Summer Intern at ONGC</span><br>I completed my summer intern at oil and natural gas corporation(ONGC) Kolkata during 15th june to 14th july offline regularly.</li>
+                        <li><span>Marketing Head in NSCC Nitap</span><br>I'm currently marketing head of our college's coding club(NSCC) since november 2022 .</li>
+                        <li><span>Robotics Club Member</span><br>I'm Robotics club member in my college and actively participate in this.</li>
+                        <li><span>Trainee FUSION 360</span><br>I have completed this course during DEC 2022–JAN 2023 on online platform COURSERA.</li>
+                        <li><span>NCC CADET</span><br>As an NCC cadet, I have completed the B certificateexamand am currently preparing for the C certificate exam.I have also participated in several NCC camps, where I developed skills in leadership, teamwork, and discipline</li>
+                       
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>National Institute of technology,Arunachal Pradesh,2021-25</span><br>Mechanical Engineering<br>CGPA 8.51 till now (top-4 in department)</li>
+                        <li><span>Matrix High School,2020</span><br> Sikar<br>Percentage=85% (Gold Medlist in Batch)</li>
+                        <li><span>Shree Shyam Senior Sec. School,2018</span><br>Sikar<br>Percentage=91%(Gold medlist in School and Tehsil)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------services section------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <!-- <i class="fa-regular fa-file-code"></i> -->
+                <i class="fa-solid fa-file-code fa-beat" style="color: #1160e8;"></i>
+                <h2>Web Design</h2>
+                <p>I have solid understanding of CSS, HTML, and basic JavaScript, I have taken my skills and applied them to the realm of web design. I have utilized these technologies to create captivating and user-friendly websites, showcasing my abilities and creativity.And creat some projects on it.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <!-- <i class="fa-solid fa-gears"></i> -->
+                <i class="fa-solid fa-gears fa-beat" style="color: #0d5be3;"></i>
+                <h2> Design Tools</h2>
+                <p>I got proficiency in both Fusion 360 and SolidWorks, powerful computer-aided design (CAD) software used extensively in the field of engineering and product design. With Fusion 360, I have gained hands-on experience in creating 3D models, designing mechanical components, and assembling complex assemblies.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+            
+                <!-- <i class="fa-solid fa-people-group"></i> -->
+                <i class="fa-solid fa-people-group fa-beat" style="color: #1968f0;"></i>
+                <h2>Social Media Marketing</h2>
+                <p>I possess the knowledge and skills to leverage various social media platforms effectively, engage with audiences, and drive meaningful results for organizations.As the Marketing Head of the NSCC club and former Think india marketing head in my college, I have gained valuable experience in social media marketing.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>  
+    </div>
+</div>
+
+<!-- -------------portfolio section------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-111.jpg" alt="WORK">
+                <div class="layer">
+                    <h3>Design Tools(Fusion 360)</h3>
+                    <p>I have design many tools using fusion 360 (a design software).Like gears,bolt,any shape and other tools.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square fa-beat" style="color: #1c65e3;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-23.jpg" alt="WORK">
+                <div class="layer">
+                    <h3>Food Website</h3>
+                    <p>I have creat a front end food website that is fully responsive website.and there many section like services,contact hader,footer,order food.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square fa-beat" style="color: #1c65e3;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-1.png" alt="WORK">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>In my personal portfolio there are many section like Home,About,Skills,Education,Contact etc. It is fully responsive and used HTML,CSS and Javascript.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square fa-beat" style="color: #1c65e3;"></i></a>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ---------------contact section-------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                 <p><i class="fa-solid fa-paper-plane fa-shake" style="color: #1d5cc9;"></i>harish20022004@gmail.com</p>
+                 <p> <i class="fa-solid fa-phone-volume fa-shake" style="color: #0d5de7;"></i>+91-7023748367</p>
+                 <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100074682871389"><i class="fa-brands fa-facebook fa-beat-fade" style="color: #175ed9;"></i></a>
+                    <a href="https://instagram.com/itz._.harish_choudhary?igshid=NGExMmI2YTkyZg=="><i class="fa-brands fa-instagram fa-beat-fade" style="color: #e51549;"></i></a>
+                    <a href="https://twitter.com/HarishBarsara?t=po5driYFYBVmTzqHr6Mj1A&s=09"><i class="fa-brands fa-square-twitter fa-beat-fade" style="color: #0a5ef0;"></i></a>
+                    <a href="https://www.linkedin.com/in/harish-chandra-barsara-874507248"><i class="fa-brands fa-linkedin fa-beat-fade" style="color: #1c6efd;"></i></a>
+                 </div>
+                 <a href="image/mycv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="text" name="E-mail" placeholder="Enter Your E-mail " required>
+                    <textarea name="Message" rows="6" placeholder="Enter Your Message"  ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                 </form>
+                 <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright&copy;Harish Choudhary.Keep support with <i class="fa-solid fa-heart fa-beat" style="color: #0962fb;"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyu9yDZwGKRabjE4sfzeuxf88ukdsE_Y3p-xDBZyoO44Y3OEFcQdjfYrwYx54ePFm6-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+                 msg.innerHTML="Message send succecfully"
+             setTimeout(function(){
+             msg.innerHTML=""
+          },5000)
+          form.reset()
+          .catch(error => console.error('Error!', error.message))
+    })
+})
+    </script>
+
+</body>
+</html>
